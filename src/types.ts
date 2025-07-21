@@ -3,6 +3,7 @@
 export interface Exercise {
   name: string;
   details?: string; // Para supersets ou observações
+  gifUrl?: string;
 }
 
 export interface DailyWorkout {
@@ -13,7 +14,7 @@ export interface DailyWorkout {
 }
 
 export interface MonthlyPlan {
-  month: number;
+  month: string;
   title: string;
   focus: string;
   sets: string;
