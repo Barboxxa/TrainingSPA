@@ -14,7 +14,7 @@ export interface DailyWorkout {
 }
 
 export interface MonthlyPlan {
-  month: string;
+  month: number;
   title: string;
   focus: string;
   sets: string;
